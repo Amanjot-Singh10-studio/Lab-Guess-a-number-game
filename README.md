@@ -48,7 +48,9 @@
 21. 'keepGoing' is now false, the while loop stops and the program start next part. 
 
 22. printf() is to display the total number of turns the player took to guess the correct number. 
+ 
+23. 'if' will turns < 7 to check if the player gussed the number in less than 7 turns and then it will print very good which means the player gussed the number quickly in less than 7 turns. 
 
-23. return 0 is to finish the main() function and end the program.  
+24. 'else if' is used when the user takes more than 7 turns and then it will say poor performance in the print statement. 
 
-
+25. return 0 is to finish the main() function and end the program. 

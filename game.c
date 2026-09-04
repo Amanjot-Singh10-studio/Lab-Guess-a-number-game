@@ -41,6 +41,11 @@ int main() {
     }
 
     printf("You took %d turns.\n", turns);
+    
+    if(turns < 7) 
+	printf("Very good!\n"); 
+    else if(turns > 7)
+	printf("Poor performance!\n"); 
 
     return 0;
 }
